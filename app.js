@@ -22,8 +22,8 @@ app.get('/couress/:id', (req, res) => {
 
 })
 app.get('/allCours', (req, res) => {
-    res,
-    send(courses)
+
+    res.send(courses)
 })
 
 app.get('/cours/:id', (req, res) => {
